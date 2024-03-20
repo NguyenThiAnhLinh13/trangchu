@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header start-->
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="https://maffu895.github.io/2311COMP180201-TKWEB-49.01.103.073/B%C3%A0i%20t%E1%BA%ADp%20nh%C3%B3m/HTML/trangchu.html" class="logo"><span>BMW</span>Review</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1">HOME</a>
+            <a href="#about" style="--i:2">ABOUT</a>
+            <a href="#introduce" style="--i:3">INTRODUCE</a>
+            <a href="#vehicles" style="--i:4">VEHICLES</a>
+            <a href="#reviewers" style="--i:5">REVIEWERS</a>
+            <a href="#contact" style="--i:6">CONTACT</a>
+        </nav>
+        <div id="login-btn">
+            <button class="btn">Login</button>
+            <i class="far fa-user"></i>
+        </div>
+    </header>
+    <!--Header end-->
+
+    <!--Login start-->
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="#">
+            <h3>User Login</h3>
+            <input type="email" placeholder="Email" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <input type="submit" value="Login now" class="btn">
+            <p>Or Login With</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Don't Have An Account <a href="#" id="Log-up">Create One</a></p>
+        </form>
+    </div>
+    <!--Login end-->
+
+    <!--Log up start-->
+    <div class="log-up-form-container">
+
+        <span class="fas fa-times" id="close-log-up-form"></span>
+
+        <form action="#">
+            <h3>Create Account</h3>
+            <input type="email" placeholder="Email" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <input type="password" placeholder="Confirm Password" class="box">
+            <div class="check-box">
+                <input type="checkbox" id="checked">
+                <p>I agree to <span>teams</span> and <span>Privacy Policy</span></p>
+            </div>
+            <input type="submit" value="Sign Up" class="btn">
+        </form>
+    </div>
+    <!--Log up end-->
+
+    <!--img home start-->
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="home-parallax">Welcome To <span>BMW</span>Review</h1>
+            <h3>BMW BEST</h3>
+            <p class="home-content">BMWReview là trang web chuyên giới thiệu về các dòng xe BMW gồm các mẫu mã mới nhất hiện nay và các dòng lâu đời nhất của hãng.</p>
+            <a href="#vehicles" class="btn-home-parallax">Our Cars</a>
+        </div>
+
+        <div class="home-img">
+            <div class="box">
+                <img src="image/Sunset Orange.png" class="img" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--img home end-->
+
+    <!-- about start-->
+    <section class="icons-container" id="about">
+        <div class="icons" >
+            <i class="fa-solid fa-earth-americas"></i>
+            <div class="content">
+                <h3>100+</h3>
+                <p>Nations</p>
+            </div>
+        </div>
+        <div class="icons" >
+            <i class="fa-solid fa-calendar-days"></i>
+            <div class="content">
+                <h3>60+</h3>
+                <p>Established Years</p>
+            </div>
+        </div>
+        <div class="icons" >
+            <i class="fa-solid fa-city"></i>
+            <div class="content">
+                <h3>20+</h3>
+                <p>Factories</p>
+            </div>
+        </div>
+        <div class="icons" >
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4+</h3>
+                <p>Main Vehicals</p>
+            </div>
+        </div>
+    </section>
+    <!-- about end-->
+
+    <!--Introduce start-->
+    <section class="introduce" id="introduce">
+        <h1 class="heading" data-aos="zoom-out"><span>Introduction</span> Of BMW</h1>
+        <div class="row">
+            <div class="video-container" data-aos="zoom-out">
+                <video src="image/Introducing the BMW iFACTORY.mp4" autoplay muted controls ></video>
+                <h3>Introduce</h3>
+            </div>
+            <div class="content" data-aos="zoom-out">
+                <h3>BMW Vehicles</h3>
+                <p>BMW là một trong những hãng xe hơi hàng đầu thế giới, nổi tiếng với những chiếc xe sang trọng, hiệu năng cao và công nghệ tiên tiến.BMW có nhiều dòng xe phù hợp với nhu cầu và sở thích của khách hàng, từ xe thể thao, xe gia đình, xe SUV, xe điện, xe hybrid, đến xe siêu sang. BMW cũng là hãng xe đầu tiên trang bị hệ thống lái thông minh BMW Intelligent Personal Assistant, giúp người lái điều khiển xe bằng giọng nói.</p>
+                <p>BMW không chỉ là một hãng xe hơi, mà còn là một biểu tượng của sự đẳng cấp, sáng tạo và đam mê.</p>
+            </div>
+        </div>
+    </section>
+    <!--Introduce end-->
+
+    <!--Vehicles start-->
+    <section class="vehicles" id="vehicles" >
+        <h1 class="heading" data-aos="zoom-out" data-aos-delay="100"  data-aos-duration="1000"> Popular <span>Vehicles</span></h1>
+        <div class="swiper vehicles-slider" data-aos="zoom-out-down" data-aos-delay="100"  data-aos-duration="1000">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 320i M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 320i M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hoangnam1107.github.io/nam.githup/bmw/bmw%20320i/XE1/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 320i Sportline.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 320i Sportline</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://vongoctuyetnhung.github.io/BTNhom/Xe%201/details.html#home" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 520i M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 520i M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://vongoctuyetnhung.github.io/BTNhom/Xe%202/details.html#home" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 520i.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 520i </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hoangnam1107.github.io/nam.githup/bmw/bmw%20520i/XE%202/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW 530i M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW 530i M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hongan911.github.io/2311COMP180201-TKWED-49.01.103.006/x2/html/Untitled-4.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW X5 M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW X5 M Sport</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://phucnguyen1110.github.io/2311COMP180201-TKWEB-4901103066/Btnhom/XE1/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW X7 M Sport.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW BMW X7 Pure Excellence</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://hongan911.github.io/2311COMP180201-TKWED-49.01.103.006/x1/html/Untitled-1.html#contact" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW X7 Pure Excellence.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW X7 xDrive40i Pure Excellence 2023</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://mihengtri.github.io/2311COMP180201-TKWEB-4901103027/Xe%202/html/html.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/bmw-x7-2024.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW X7 2024</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://mihengtri.github.io/2311COMP180201-TKWEB-4901103027/Xe%201/html/xe1.html.html" class="btn">Check out</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/image-BMW-series/BMW XM 2024.png" alt="">
+                    <div class="content">
+                        <h3>New model</h3>
+                        <div class="name-car">BMW XM 2024</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span>2023
+                            <span class="fas fa-circle"></span>automatic
+                        </p>
+                        <a href="https://phucnguyen1110.github.io/2311COMP180201-TKWEB-4901103066/Btnhom/XE%202/details.html" class="btn">Check out</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <!--Vehicles end-->
+
+    <!--Reviewer start-->
+    <section class="reviewers" id="reviewers">
+        <h1 class="heading" data-aos="zoom-out" data-aos-delay="100"  data-aos-duration="1000">Our <span>Reviewers</span></h1>
+        <div class="swiper reviews-slider" data-aos="zoom-out" data-aos-delay="110"  data-aos-duration="1000">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/Reviewer/NguyễnThànhQuân.jpg" alt="">
+                    <div class="content">
+                        <h3>Nguyễn Thành Quân</h3>
+                        <p>Chuyên gia đánh giá xe BMW, kết hợp sự đam mê và kiến thức sâu rộng.Anh không chỉ tập trung vào ngoại thất và nội thất mà còn chú ý đến trải nghiệm lái xe. Sự sáng tạo trong video và tương tác tích cực trên mạng xã hội giúp Anh xây dựng cộng đồng yêu xe BMW độc đáo và sôi động.</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/Reviewer/HoàngPhúc.jpg" alt="">
+                    <div class="content">
+                        <h3>Nguyễn Hoàng Phúc</h3>
+                        <p>Là một chuyên gia nổi tiếng với sự xuất sắc trong lĩnh vực đánh giá. Phúc thể hiện sự chính xác và tỉ mỉ trong công việc của mình. Cách tiếp cận cẩn thận và sự chú ý sắc xảo của anh ấy là điểm nổi bật khiến anh ấy trở thành một người đánh giá khôn ngoan. Khả năng diễn đạt những quan sát tinh tế của anh ấy khiến những bài đánh giá của Phúc trở nên sâu sắc và toàn diện.</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/Reviewer/NguyễnHoàngNam.jpg" alt="">
+                    <div class="content">
+                        <h3>Hoàng Nam</h3>
+                        <p>Một reviewer xe BMW tài năng, sáng tạo và tận tụy. Với sự hiểu biết chuyên sâu và đánh giá tinh tế, anh không chỉ chia sẻ thông tin mà còn mang đến trải nghiệm độc đáo, làm nổi bật vẻ đẹp và hiệu suất của những chiếc xe tinh tế từ thương hiệu danh tiếng này.</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/Reviewer/HồngÂn.jpg" alt="">
+                    <div class="content">
+                        <h3>Hồng Ân</h3>
+                        <p>Tôi là một người có sự quyết đoán mạnh mẽ và lòng kiên nhẫn vững vàng. Tinh thần ham học hỏi của tôi được thể hiện thông qua việc tìm kiếm và chấp nhận thách thức, đồng thời tôi luôn có trách nhiệm cao đối với việc học và phát triển bản thân. Tính sáng tạo luôn là một phần không thể thiếu trong suy nghĩ và hành động của tôi. Tôi mang trong mình tinh thần hoà đồng, luôn chào đón mọi người và tôn trọng quan điểm của họ.</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/Reviewer/MinhHiền.jpg" alt="">
+                    <div class="content">
+                        <h3>Minh Hiền</h3>
+                        <p>Ở một môi trường mới-Trường Đại học Sư phạm TP.HCM, tôi rất vui và hạnh phúc khi được học tập và nhận được sự hỗ trợ nhiệt tình từ thầy cô và những người bạn bè mới quen. Từ đó đã giúp tôi tiến bộ hơn và cũng là điều may mắn của tôi, vì thế tôi rất trân quý điều tuyệt vời này !!!</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/Reviewer/TuyếtNhung.jpg" alt="">
+                    <div class="content">
+                        <h3>Tuyết Nhung</h3>
+                        <p>Không chỉ truyền đạt đam mê về thế giới xe hơi mà còn biến mỗi bài viết thành một tác phẩm nghệ thuật. Sự kết hợp tinh tế giữa công nghệ và cái nhìn nghệ thuật của cô đã tạo ra những bức tranh sống động về đẳng cấp và đẹp lịch lãm của xe BMW. Đằng sau vẻ đẹp ấy là tầm ảnh hưởng lớn, khiến Tuyết Nhung trở thành nguồn cảm hứng không ngừng, làm nổi bật đẳng cấp xe hơi và tạo dấu ấn riêng trong làng đánh giá xe.</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--Reviewer end-->
+
+    <!--Contact start-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> us</h1>
+        <div class="row">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31357.205323830523!2d106.6461222108398!3d10.7613832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1b8a072901%3A0x2fb4502ebd044212!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTxrAgcGjhuqFtIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1702521070105!5m2!1svi!2s" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3 data-aos="zoom-in">Tell us something</h3>
+                <input data-aos="zoom-in" type="text" placeholder="Your name" class="box">
+                <input data-aos="zoom-in" type="email" placeholder="Your email" class="box">
+                <input data-aos="zoom-in" type="number" placeholder="Your number" class="box">
+                <textarea data-aos="zoom-in" placeholder="your message" class="box" cols="30" rows="10"></textarea>
+                <input data-aos="zoom-in" type="submit" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+    <!--Contact end-->
+
+    <!--Footer start-->
+    <section class="footer">
+        <p><span>Created by</span> Team Review Xe</p>
+    </section>
+    <!--Footer end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="trangchu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+   
+</body>
+</html>
